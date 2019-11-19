@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="tutorialsNinjaScript">
 	<test thread-count="5" name="tutorialNinjaTest">
-		<parameter name="webdrivername" value="${browsername}" />
+		<parameter name="webdrivername" value="chrome" />
 		<parameter name="url"
 			value="http://tutorialsninja.com/demo/" />
 		<classes>
