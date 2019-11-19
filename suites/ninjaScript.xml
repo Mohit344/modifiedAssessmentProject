@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="tutorialsNinjaScript">
+	<test thread-count="5" name="tutorialNinjaTest">
+		<parameter name="webdrivername" value="${browsername}" />
+		<parameter name="url"
+			value="http://tutorialsninja.com/demo/" />
+		<classes>
+			<class name="com.atmecs.qa.script.TutorialsNinjaScript" />
+		</classes>
+	</test>
+</suite> 

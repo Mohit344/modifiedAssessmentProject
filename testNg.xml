@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="assesmentScriptSuit" thread-count="3">
+	<suite-files>
+		<suite-file path="./suites/heatClinic.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="./suites/ninjaScript.xml"></suite-file>
+	</suite-files>
+
+</suite> <!-- Suite -->
+
+
+
+
+
